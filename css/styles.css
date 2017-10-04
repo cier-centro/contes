@@ -1,0 +1,37 @@
+/**
+* Variables
+* --------------------------------------------------
+*/
+/**
+ * Mixins
+ * --------------------------------------------------
+ */
+/**
+* General
+* --------------------------------------------------
+*/
+.window-content {
+  width: 1366px;
+  height: 768px;
+  margin: auto; }
+
+/**
+* Header
+* --------------------------------------------------
+*/
+.header {
+  background: url("../img/top.png");
+  padding: 11px;
+  width: 1366px; }
+  .header label {
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    padding-left: 50px; }
+  .header button {
+    background: url(../img/menu.png) no-repeat;
+    width: 115px;
+    height: 44px;
+    padding: 0; }
+
+/*# sourceMappingURL=styles.css.map */

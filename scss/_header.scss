@@ -1,0 +1,23 @@
+/**
+* Header
+* --------------------------------------------------
+*/
+
+.header {
+    background: url('#{$images-path}top.png');
+    padding: 11px;
+    width: 1366px;
+
+    label {
+        color: white;
+        font-size: 24px;
+        font-weight: 100;
+        padding-left: 50px;
+    }
+    button {
+        background: url(../img/menu.png) no-repeat;
+        width: 115px;
+        height: 44px;
+        padding: 0;
+    }
+}
