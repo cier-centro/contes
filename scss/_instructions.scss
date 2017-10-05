@@ -1,0 +1,22 @@
+/**
+* Instructions
+* --------------------------------------------------
+*/
+
+.instructions {
+    display: flex;
+    align-items: center;
+    background: url('#{$images-path}img_instructions_bg.png') no-repeat;
+    padding: 15px 50px;
+    @include shadow-properties(inset 0px 20px 20px -10px rgba(0,0,0,0.4));
+
+    .instructions-text {
+      padding: 0 50px;
+      font-size: 20px;
+      line-height: 120%;
+
+          p {
+              color: $instructions-text-color;
+          }
+    }
+}

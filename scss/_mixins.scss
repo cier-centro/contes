@@ -2,10 +2,8 @@
  * Mixins
  * --------------------------------------------------
  */
-@mixin transition-properties($values) {
-    -webkit-transition: $values;
-    -moz-transition: $values;
-    -ms-transition: $values;
-    -o-transition: $values;
-    transition: $values;
+@mixin shadow-properties($values) {
+    -webkit-box-shadow: $values;
+    -moz-box-shadow: $values;
+    box-shadow: $values;
 }
